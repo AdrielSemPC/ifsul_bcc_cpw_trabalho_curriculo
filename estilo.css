@@ -1,0 +1,165 @@
+.nav-tabs a.nav-link.active,
+.nav-tabs a.nav-link.active:hover,
+.nav-tabs a.nav-link.active:focus {
+    border-color: transparent !important;
+}
+
+.nav-tabs, .nav-tabs a.nav-link{
+    border-bottom: 0px solid transparent;
+}
+
+/*modo claro*/
+.fundoClaro{
+    background-color: rgb(255, 243, 187);
+    color: rgb(44, 44, 44);
+}
+
+.fundoClaroTabs{
+    background-color: white;
+    color: blue;
+}
+
+.nav-link.active.claro {
+    background-color: white;
+    color: blue !important;
+}
+
+/*modo default*/
+.fundoDefault{
+    background-color: #007F95;
+    color: orange;
+}
+
+.fundoDefaultTabs{
+    background-color: orange;
+    color: black;
+}
+
+.nav-link.active.default {
+    background-color: orange;
+    color: black !important;
+}
+
+/*modo escuro*/
+.fundoEscuro{
+    background-color: black;
+    color: goldenrod;
+}
+
+.fundoEscuroTabs{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+.nav-link.active.escuro {
+    background-color: rgb(44, 44, 44);
+    color: white !important;
+}
+
+/*resto*/
+.centralizar{
+    margin: 0 auto;
+    max-width: 35em;
+}
+
+.formataConteudo{
+    float: right;
+    width: 80px;
+}
+
+.centralizarTexto{
+    text-align: center;
+}
+
+.boxmodel{
+    margin: 0 auto;
+    width: 1201px;
+}
+
+.nav-tabs .nav-link {
+    height: 100%;
+}
+
+.tab-pane{
+    min-height: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.margemFundo{
+    margin-bottom: 15px;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.formataImagem{
+    height: 20px;
+}
+
+.ajustaImagem{
+    width: 105px;
+}
+
+.semMargem{
+    margin: 0 0 0 0;
+}
+
+.paragrafoInicial{
+    text-indent: 25px;
+    padding: 10px;
+}
+
+.paragrafoInicialLista{
+    text-indent: 25px;
+    padding: 10px 10px 20px;
+}
+
+.paragrafoLista{
+    text-indent: 25px;
+    padding: 20px 10px 20px;
+}
+
+.botao{
+    padding: 0px 10px 10px;
+}
+
+.links{
+    font-weight: bold;
+}
+
+.sequenciaLista{
+    margin-top: 5px;
+}
+
+.fimTab{
+    padding-bottom: 10px;
+}
+
+#tabsPrincipal{
+    max-width: 100em;
+    background-color: transparent;
+}
+
+#tabsConteudo{
+    max-width: 100em;
+}
+
+#principal{
+    margin: 0 auto;
+}
+
+#estilopagina{
+    float: right;
+    text-align: center;
+}
+
+p{
+    padding-left: 15px;
+    margin: 0 0 0 0;
+}
+
+span{
+    font-weight: 300;
+}
